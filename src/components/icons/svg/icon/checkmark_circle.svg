@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : checkmark_circle</title>
+    <g id="03.-tokens/Icon/m/type-:-checkmark_circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) " x="-1.77635684e-15" y="1.77635684e-15" width="24" height="24"></rect>
+        <path d="M12,2.55 C17.2190909,2.55 21.45,6.78090911 21.45,12 C21.45,17.2190909 17.2190909,21.45 12,21.45 C6.78090911,21.45 2.55,17.2190909 2.55,12 C2.55,6.78090911 6.78090911,2.55 12,2.55 Z M12,4.05 C7.60933624,4.05 4.05,7.60933624 4.05,12 C4.05,16.3906638 7.60933624,19.95 12,19.95 C16.3906638,19.95 19.95,16.3906638 19.95,12 C19.95,7.60933624 16.3906638,4.05 12,4.05 Z M16.2696699,8.16966991 L17.3303301,9.23033009 L10.5246529,16.0360073 L6.6954954,12.5549551 L7.7045046,11.4450449 L10.4751,13.9641 L16.2696699,8.16966991 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

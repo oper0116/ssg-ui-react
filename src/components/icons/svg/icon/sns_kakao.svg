@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : sns_kakao</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="03.-tokens/Icon/m/type-:-sns_kakao" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <g filter="url(#filter-1)">
+            <g transform="translate(2.400000, 2.400000)">
+                <circle id="Oval" fill="#222222" fill-rule="nonzero" cx="9.6" cy="9.6" r="9.6"></circle>
+            </g>
+        </g>
+        <path d="M12,8.256 C9.762,8.256 7.947,9.69 7.947,11.457 C7.947,12.597 8.7,13.593 9.828,14.157 L9.444,15.6 C9.43031007,15.6424484 9.44194492,15.6889878 9.474,15.72 C9.49529304,15.7438392 9.52605227,15.7570217 9.558,15.7560553 C9.58322848,15.7543062 9.60732195,15.7448783 9.627,15.729 L11.271,14.619 C11.5124596,14.6538294 11.7560439,14.6718727 12,14.673 C14.238,14.673 16.053,13.239 16.053,11.469 C16.053,9.699 14.238,8.256 12,8.256" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

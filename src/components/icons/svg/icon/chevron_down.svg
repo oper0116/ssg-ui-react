@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : chevron_down</title>
+    <g id="03.-tokens/Icon/m/type-:-chevron_down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="background" transform="translate(12.000000, 12.000000) rotate(90.000000) translate(-12.000000, -12.000000) " points="-3.85949436e-15 6.66133815e-15 24 6.66133815e-15 24 24 -3.85949436e-15 24"></polygon>
+        <polygon id="path" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.265165) rotate(180.000000) translate(-12.000000, -12.265165) " points="3.06966991 16.2 12 7.26966991 20.9303301 16.2 19.8696699 17.2606602 12 9.39083009 4.13033009 17.2606602"></polygon>
+    </g>
+</svg>

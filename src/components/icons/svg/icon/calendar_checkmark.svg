@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : calendar_checkmark</title>
+    <g id="03.-tokens/Icon/m/type-:-calendar_checkmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <path d="M21.15,3.75 L21.15,20.25 L2.85,20.25 L2.85,3.75 L21.15,3.75 Z M19.65,8.55 L4.35,8.55 L4.35,18.75 L19.65,18.75 L19.65,8.55 Z M15.0504049,10.5896617 L16.1495951,11.6103383 L11.7502305,16.3481156 L8.50172712,13.460557 L9.49827288,12.339443 L11.6496,14.2518 L15.0504049,10.5896617 Z M19.65,7.05 L19.65,5.25 L17.85,5.25 L17.85,7.05 L19.65,7.05 Z M6.15,5.25 L4.35,5.25 L4.35,7.05 L6.15,7.05 L6.15,5.25 Z M16.35,5.25 L7.65,5.25 L7.65,7.05 L16.35,7.05 L16.35,5.25 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

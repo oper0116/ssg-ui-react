@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : chevron_down_circle</title>
+    <g id="03.-tokens/Icon/m/type-:-chevron_down_circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) " x="0" y="0" width="24" height="24"></rect>
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.265165) rotate(180.000000) translate(-12.000000, -12.265165) " points="7.86966991 13.8 12 9.66966991 16.1303301 13.8 15.0696699 14.8606602 12 11.7908301 8.93033009 14.8606602"></polygon>
+        <path d="M12,2.55 C6.78090911,2.55 2.55,6.78090911 2.55,12 C2.55,17.2190909 6.78090911,21.45 12,21.45 C17.2190909,21.45 21.45,17.2190909 21.45,12 C21.45,6.78090911 17.2190909,2.55 12,2.55 Z M12,4.05 C16.3906638,4.05 19.95,7.60933624 19.95,12 C19.95,16.3906638 16.3906638,19.95 12,19.95 C7.60933624,19.95 4.05,16.3906638 4.05,12 C4.05,7.60933624 7.60933624,4.05 12,4.05 Z" id="Oval" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) "></path>
+    </g>
+</svg>

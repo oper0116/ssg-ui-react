@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : chevron_down_square</title>
+    <g id="03.-tokens/Icon/m/type-:-chevron_down_square" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) " x="0" y="0" width="24" height="24"></rect>
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.265165) rotate(180.000000) translate(-12.000000, -12.265165) " points="7.86966991 13.8 12 9.66966991 16.1303301 13.8 15.0696699 14.8606602 12 11.7908301 8.93033009 14.8606602"></polygon>
+        <path d="M15.6,3.45 L8.4,3.45 C5.66619049,3.45 3.45,5.66619049 3.45,8.4 L3.45,15.6 C3.45,18.3338095 5.66619049,20.55 8.4,20.55 L15.6,20.55 C18.3338095,20.55 20.55,18.3338095 20.55,15.6 L20.55,8.4 C20.55,5.66619049 18.3338095,3.45 15.6,3.45 Z M8.4,4.95 L15.6,4.95 C17.5053824,4.95 19.05,6.49461761 19.05,8.4 L19.05,15.6 C19.05,17.5053824 17.5053824,19.05 15.6,19.05 L8.4,19.05 C6.49461761,19.05 4.95,17.5053824 4.95,15.6 L4.95,8.4 C4.95,6.49461761 6.49461761,4.95 8.4,4.95 Z" id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) "></path>
+    </g>
+</svg>

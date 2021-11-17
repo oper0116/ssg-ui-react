@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : power</title>
+    <g id="03.-tokens/Icon/m/type-:-power" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <path d="M12.75,2.4 L12.750188,5.88493166 C16.7890348,6.26294912 19.95,9.66233307 19.95,13.8 C19.95,18.1906638 16.3906638,21.75 12,21.75 C7.60933624,21.75 4.05,18.1906638 4.05,13.8 C4.05,9.66198932 7.21149042,6.2623843 11.2508187,5.88483751 L11.25,2.4 L12.75,2.4 Z M12.7509188,7.39324446 L12.75,12 L11.25,12 L11.2500826,7.39312843 C8.04114374,7.76468209 5.55,10.4914221 5.55,13.8 C5.55,17.3622366 8.43776336,20.25 12,20.25 C15.5622366,20.25 18.45,17.3622366 18.45,13.8 C18.45,10.4917663 15.9593745,7.7652494 12.7509188,7.39324446 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

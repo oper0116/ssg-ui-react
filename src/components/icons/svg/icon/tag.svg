@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : tag</title>
+    <g id="03.-tokens/Icon/m/type-:-tag" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="15.9" cy="8.1" r="1"></circle>
+        <path d="M19.3984233,4.60157666 L12.5348052,2.76353458 L2.53933983,12.759 L11.241,21.4606602 L21.2364654,11.4651948 L19.3984233,4.60157666 Z M12.9831,4.4361 L18.1734,5.8263 L19.5636,11.0166 L11.241,19.3395 L4.6605,12.759 L12.9831,4.4361 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : chevron_double_down</title>
+    <g id="03.-tokens/Icon/m/type-:-chevron_double_down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) " x="0" y="0" width="24" height="24"></rect>
+        <path d="M19.8696699,10.5696699 L20.9303301,11.6303301 L12,20.5606602 L3.06966991,11.6303301 L4.13033009,10.5696699 L12,18.4395 L19.8696699,10.5696699 Z M19.8696699,4.26966991 L20.9303301,5.33033009 L12,14.2606602 L3.06966991,5.33033009 L4.13033009,4.26966991 L12,12.1395 L19.8696699,4.26966991 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : board</title>
+    <g id="03.-tokens/Icon/m/type-:-board" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <path d="M15.15,3.45 L15.149,4.35 L18.75,4.35 L18.75,20.55 L5.25,20.55 L5.25,4.35 L8.849,4.35 L8.85,3.45 L15.15,3.45 Z M15.15,7.05 L8.85,7.05 L8.849,5.85 L6.75,5.85 L6.75,19.05 L17.25,19.05 L17.25,5.85 L15.149,5.85 L15.15,7.05 Z M12,14.85 L12,16.35 L8.4,16.35 L8.4,14.85 L12,14.85 Z M15.6,11.85 L15.6,13.35 L8.4,13.35 L8.4,11.85 L15.6,11.85 Z M15.6,8.55 L15.6,10.05 L8.4,10.05 L8.4,8.55 L15.6,8.55 Z M13.65,4.95 L10.35,4.95 L10.35,5.55 L13.65,5.55 L13.65,4.95 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

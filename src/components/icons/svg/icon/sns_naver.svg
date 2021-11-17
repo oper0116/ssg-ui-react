@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : sns_naver</title>
+    <g id="03.-tokens/Icon/m/type-:-sns_naver" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <circle fill="#222222" fill-rule="nonzero" cx="12" cy="12" r="9.6"></circle>
+        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="13.083 8.916 13.083 12.057 10.917 8.916 8.826 8.916 8.826 8.916 8.826 15.084 10.917 15.084 10.917 11.943 13.083 15.084 13.083 15.084 13.083 15.084 15.174 15.084 15.174 8.916"></polygon>
+    </g>
+</svg>

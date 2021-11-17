@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="16" viewBox="0 0 34 16">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-465 -64) translate(465 64)">
+                <rect width="34" height="16" fill="#000" fill-opacity=".4" rx="8"/>
+                <text fill="#FFF" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="10">
+                    <tspan x="11" y="11.5">광고</tspan>
+                </text>
+                <path fill="#FFF" d="M7.425 4.713c0 .393-.319.712-.712.712-.394 0-.713-.32-.713-.712C6 4.319 6.319 4 6.713 4c.393 0 .712.32.712.713"/>
+                <path stroke="#FFF" d="M6.712 6.369L6.712 11.368"/>
+            </g>
+        </g>
+    </g>
+</svg>

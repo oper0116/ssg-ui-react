@@ -1,26 +1,29 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "preserve",
     "allowJs": true,
+    "moduleResolution": "Node",
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": true,
+    "removeComments": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
     "noEmit": true,
-    "jsx": "react-jsx"
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "~ui/*": ["./src/*"],
+      "@config/*": ["./config/*"]
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", "index.ts"],
+  "exclude": ["node_modules", "**/*.stories.tsx"]
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow_double_vertical</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="background" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) " x="-1.77635684e-15" y="1.77635684e-15" width="24" height="24"></rect>
+            <path d="M16.95,3.6 L16.9496699,18.6793398 L19.8896617,15.9504049 L20.9103383,17.0495951 L16.2,21.4234807 L11.4896617,17.0495951 L12.5103383,15.9504049 L15.4496699,18.6803398 L15.45,3.6 L16.95,3.6 Z M7.8,2.53933983 L12.5303301,7.26966991 L11.4696699,8.33033009 L8.54966991,5.41033983 L8.55,20.4 L7.05,20.4 L7.04966991,5.41033983 L4.13033009,8.33033009 L3.06966991,7.26966991 L7.8,2.53933983 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

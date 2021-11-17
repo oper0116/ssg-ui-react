@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : chevron_left</title>
+    <g id="03.-tokens/Icon/m/type-:-chevron_left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="background" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) " points="-5.32907052e-15 6.79864668e-15 24 6.79864668e-15 24 24 -5.32907052e-15 24"></polygon>
+        <polygon id="path" fill="#000000" fill-rule="nonzero" transform="translate(11.734835, 12.000000) rotate(270.000000) translate(-11.734835, -12.000000) " points="2.80450487 15.934835 11.734835 7.00450487 20.665165 15.934835 19.6045049 16.9954951 11.734835 9.12566504 3.86516504 16.9954951"></polygon>
+    </g>
+</svg>

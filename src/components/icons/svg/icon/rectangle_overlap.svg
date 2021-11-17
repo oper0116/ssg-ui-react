@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : rectangle_overlap</title>
+    <g id="03.-tokens/Icon/m/type-:-rectangle_overlap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="21 6.9 21 21 6.9 21 6.9 19.8 19.8 19.8 19.8 6.9"></polygon>
+        <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="3.6" y="3.6" width="14.1" height="14.1"></rect>
+    </g>
+</svg>

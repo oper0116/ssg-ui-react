@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <filter color-interpolation-filters="auto" id="a">
+      <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.898039 0 0 0 0 0.898039 0 0 0 0 0.898039 0 0 0 1.000000 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="10" cy="10" r="10" fill="#FFF"/>
+    <path d="m10.182 5-4.5 3.438v5.729h9v-5.73z" fill="#FFCE00"/>
+    <g filter="url(#a)">
+      <circle stroke="#000" stroke-width=".5" cx="10" cy="10" r="9.75"/>
+    </g>
+  </g>
+</svg>

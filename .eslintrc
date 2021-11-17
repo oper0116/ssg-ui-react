@@ -1,0 +1,66 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "proejct": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/display-name": 0,
+    "react/no-unescaped-entities": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/member-delimiter-style": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/no-use-before-define": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@next/next/no-html-link-for-pages": 0,
+    "@typescript-eslint/ban-ts-ignore": ["off"],
+    "@typescript-eslint/no-unescaped-entities": 0,
+    "@next/next/no-img-element": "off",
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "object-curly-spacing": ["error", "always"],
+    "no-empty-pattern": ["off"],
+    "no-unused-vars": 0,
+    "no-var": ["error"],
+    "semi": ["error"],
+    "@typescript-eslint/no-unused-vars": [
+      2,
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-console": 0,
+    "import/no-anonymous-default-export": 0,
+    "no-irregular-whitespace": [
+      "error",
+      {
+        "skipTemplates": true,
+        "skipComments": true
+      }
+    ]
+  }
+}

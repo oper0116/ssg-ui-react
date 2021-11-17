@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : arrow_top</title>
+    <g id="03.-tokens/Icon/m/type-:-arrow_top" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="background" transform="translate(12.000000, 12.000000) rotate(450.000000) translate(-12.000000, -12.000000) " points="7.34788079e-15 1.99840144e-15 24 1.99840144e-15 24 24 7.34788079e-15 24"></polygon>
+        <path d="M14.2712088,3.61076943 L21.9698317,11.6301683 L14.2712088,19.6495672 L13.1891278,18.6107694 L19.1701683,12.3797694 L2.0301683,12.3801683 L2.0301683,10.8801683 L19.1701683,10.8797694 L13.1891278,4.64956717 L14.2712088,3.61076943 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 11.630168) rotate(270.000000) translate(-12.000000, -11.630168) "></path>
+    </g>
+</svg>

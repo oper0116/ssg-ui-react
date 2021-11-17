@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03. tokens/Icon/m/type : sns_phone</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="03.-tokens/Icon/m/type-:-sns_phone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <g filter="url(#filter-1)">
+            <g transform="translate(2.400000, 2.400000)">
+                <circle id="Oval" fill="#222222" fill-rule="nonzero" cx="9.6" cy="9.6" r="9.6"></circle>
+            </g>
+        </g>
+        <path d="M13.95,16.92 L10.05,16.92 C9.32166854,16.9183503 8.73164968,16.3283315 8.73,15.6 L8.73,8.4 C8.73,7.67098413 9.32098413,7.08 10.05,7.08 L13.95,7.08 C14.6790159,7.08 15.27,7.67098413 15.27,8.4 L15.27,15.6 C15.2683503,16.3283315 14.6783315,16.9183503 13.95,16.92 L13.95,16.92 Z M10.05,7.92 C9.78490332,7.92 9.57,8.13490332 9.57,8.4 L9.57,15.6 C9.57,15.8650967 9.78490332,16.08 10.05,16.08 L13.95,16.08 C14.2150967,16.08 14.43,15.8650967 14.43,15.6 L14.43,8.4 C14.43,8.13490332 14.2150967,7.92 13.95,7.92 L10.05,7.92 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="11.46" y="14.478" width="1.083" height="1"></rect>
+    </g>
+</svg>

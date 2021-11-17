@@ -1,0 +1,16 @@
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="03.-tokens/Icon/m/type-:-sns_facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" x="0" y="0" width="24" height="24"></rect>
+        <g filter="url(#filter-1)">
+            <g transform="translate(2.100000, 2.100000)">
+                <circle id="Oval" fill="#222222" fill-rule="nonzero" cx="9.6" cy="9.6" r="9.6"></circle>
+            </g>
+        </g>
+        <path d="M12.363,15.99 L12.363,12.09 L13.677,12.09 L13.875,10.566 L12.375,10.566 L12.375,9.576 C12.375,9.135 12.498,8.835 13.131,8.835 L13.941,8.835 L13.941,7.47 C13.5493513,7.4289872 13.1557888,7.40895857 12.762,7.40996139 C11.598,7.40996139 10.8,8.121 10.8,9.426 L10.8,10.551 L9.471,10.551 L9.471,12.075 L10.8,12.075 L10.8,15.975 L12.363,15.99 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
