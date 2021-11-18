@@ -39,32 +39,6 @@ yarn dlx @yarnpkg/sdks vscode
 #### zipFs
 
 - zipFS plugin 설치
-- GoT To Delcare 기능 활성화
-
-##### Go To Delcare 가 되지 않을 경우
-
-- 2021-10-14 기준 VSCODE 버전(1.61.0)에서 Go To Delcare 오류 발생하여, VSCODE 버전(1.60.0)으로 다운그레이드 및 VSCODE 자동 업데이트 해제
-- VSCODE 다운로드 [링크](https://code.visualstudio.com/docs/supporting/faq#_previous-release-versions)
-- `Ctrl + ,` > `Update Mode` 검색 > `None`
-
-```
-https://update.code.visualstudio.com/{version}/win32-x64-user/stable // 64bit installer
-```
-
-### Cookie 공유를 위한 설정
-
-- C:\Windows\System32\drivers\etc\hosts 파일에 아래 내용 추가
-
-```
-...
-127.0.0.1 local-m.ssg.com
-...
-```
-
-- 브라우저 http://local-m.ssg.com 접속
-- http://dev-m.ssg.com에서 로그인시 http://local-m.ssg.com 쿠키값 공유 credential 적용 (2021-11-08 기준 DEV 서버)
-- [hosts 파일 설정](https://offbyone.tistory.com/149)
-- [CORS](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)
 
 ## Available Scripts
 
