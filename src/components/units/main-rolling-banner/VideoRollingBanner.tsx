@@ -17,7 +17,7 @@ import {
   ModalHeader,
   useDisclosure,
 } from '@chakra-ui/react';
-import { Swiper, SwiperSlide, SwiperAutoplay } from '../../swiper';
+import { Swiper, SwiperSlide, SwiperAutoplay, SwiperClass } from '../../swiper';
 import { SystemIcon } from '../../icons';
 
 interface Props {
@@ -31,7 +31,7 @@ interface Props {
 }
 
 const VideoRollingBanner = ({ data }: Props) => {
-  const swiperRef = useRef<typeof Swiper | null>(null);
+  const swiperRef = useRef(null) as unknown as React.MutableRefObject<SwiperClass>;
   const [activeIndex, setActiveIndex] = useState(0);
   const [isAutoPlay, setIsAutoPlay] = useState(true);
   const { isOpen, onOpen, onClose } = useDisclosure();

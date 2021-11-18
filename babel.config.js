@@ -5,7 +5,6 @@ module.exports = {
   plugins: [
     '@chakra-ui/babel-plugin',
     ['@babel/plugin-proposal-class-properties', { loose: true }],
-    ['inline-react-svg'],
   ],
   presets: [
     '@babel/preset-typescript',

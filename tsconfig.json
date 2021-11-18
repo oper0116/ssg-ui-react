@@ -2,9 +2,12 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "jsx": "preserve",
-    "allowJs": true,
     "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "typeRoots": ["@types"],
+    "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -24,6 +27,6 @@
       "@config/*": ["./config/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "index.ts"],
-  "exclude": ["node_modules", "**/*.stories.tsx"]
+  "include": ["**/*.ts", "**/*.tsx", "@types", "index.ts"],
+  "exclude": ["node_modules", "build", "dist", "rollup.config.js", "**/*.stories.tsx"]
 }

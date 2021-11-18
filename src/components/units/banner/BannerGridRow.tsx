@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { Box, Flex, Text, Stack, StackProps, Heading } from '@chakra-ui/react';
-import { Banner } from '@ssg/types/mapi';
+import { Banner } from '~/../@types/mapi/mapi';
 
 interface Props extends StackProps {
   data: Array<Banner>;

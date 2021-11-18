@@ -53,13 +53,13 @@ const CategoryTab = ({ data, radius = '2xl' }: Props) => {
     }
   };
 
-  const categoryRef = useRef<HTMLDivElement | null>(null);
+  const categoryRef = useRef(null) as unknown as React.MutableRefObject<HTMLDivElement>;
 
   const setPosition = async (e) => {
     isOpen && (await onClose());
     const { offsetWidth, offsetLeft } = e.target;
     const categoryRefWidth: number = categoryRef.current.offsetWidth;
-    categoryRef.current.scrollLeft = `${offsetLeft - categoryRefWidth / 2 + offsetWidth / 2}`;
+    categoryRef.current.scrollLeft = offsetLeft - categoryRefWidth / 2 + offsetWidth / 2;
   };
 
   return (

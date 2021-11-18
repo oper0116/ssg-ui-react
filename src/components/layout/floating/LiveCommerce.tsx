@@ -23,7 +23,7 @@ interface Props {
 
 const LiveCommerce = ({ liveCommerceInfo }: Props) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const openButton = useRef();
+  const openButton = useRef() as React.MutableRefObject<HTMLAnchorElement>;
   const isMultipleLive = liveCommerceInfo.totalCnt > 1;
 
   return (

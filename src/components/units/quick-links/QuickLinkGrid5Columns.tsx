@@ -10,7 +10,7 @@ import {
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
-import { CornerBannerUnit } from '@ssg/types/mapi';
+import { CornerBannerUnit } from '~/../@types/mapi';
 import { SystemIcon } from '../../icons';
 
 interface Props extends BoxProps {

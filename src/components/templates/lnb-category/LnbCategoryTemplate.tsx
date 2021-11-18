@@ -6,7 +6,7 @@ import QuickLinkGrid3Columns from '../../units/quick-links/QuickLinkGrid3Columns
 import QuickLinkGrid5Columns from '../../units/quick-links/QuickLinkGrid5Columns';
 import CategoryThumnailGrid4Columns from '../../units/category/CategoryThumnailGrid4Columns';
 import BannerGridRow from '../../units/banner/BannerGridRow';
-import { Banner, CategoryBannerList, CornerBannerUnit } from '@ssg/types/mapi';
+import { Banner, CategoryBannerList, CornerBannerUnit } from '~/../@types/mapi';
 
 interface Props {
   data: {

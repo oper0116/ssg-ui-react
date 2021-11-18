@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { Badge, Box, Grid, Text, useColorModeValue } from '@chakra-ui/react';
-import { CornerBannerUnit } from '@ssg/types/mapi';
+import { CornerBannerUnit } from '~/../@types/mapi';
 
 interface Props {
   data: Array<CornerBannerUnit>;

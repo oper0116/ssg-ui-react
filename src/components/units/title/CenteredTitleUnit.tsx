@@ -1,6 +1,6 @@
 import React from 'react';
 import { BoxProps, VStack, Text } from '@chakra-ui/react';
-import { ModuleUnitTitleUnit } from '@ssg/types/mapi';
+import { ModuleUnitTitleUnit } from '~/../@types/mapi';
 
 interface Props extends BoxProps {
   data: Partial<ModuleUnitTitleUnit>;

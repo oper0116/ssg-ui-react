@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Flex, BoxProps, Heading, Text } from '@chakra-ui/react';
 import { SystemIcon } from '../../icons';
-import { ModuleUnitQuickLinkGrid } from '@ssg/types/mapi';
+import { ModuleUnitQuickLinkGrid } from '~/../@types/mapi';
 
 interface Props extends BoxProps {
   data: Partial<ModuleUnitQuickLinkGrid>;

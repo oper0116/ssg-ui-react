@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Box, ListItem, OrderedList, Flex, Button } from '@chakra-ui/react';
 import Link from 'next/link';
-import { Swiper, SwiperSlide } from '../../swiper';
+import { Swiper, SwiperSlide, SwiperClass } from '../../swiper';
 import { SystemIcon } from '../../icons/SystemIcon';
 
 interface Props {
@@ -38,7 +38,7 @@ interface IrltimeSrchwdBestList {
 
 const Keyword = ({ data }: Props) => {
   const keywordData = data.cateList[0].rltimeSrchwdBestList;
-  const swiperRef = useRef<null>(null);
+  const swiperRef = useRef(null) as unknown as React.MutableRefObject<SwiperClass>;
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {

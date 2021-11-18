@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { AspectRatio, Box, BoxProps, Grid, Text } from '@chakra-ui/react';
-import { CornerBannerUnit } from '@ssg/types/mapi';
+import { CornerBannerUnit } from '~/../@types/mapi';
 
 interface Props extends BoxProps {
   data: Array<CornerBannerUnit>;

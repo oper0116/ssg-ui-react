@@ -4,7 +4,7 @@ import { Swiper } from 'swiper/react';
 
 import 'swiper/css';
 
-const BaseSwiper: React.PureComponent<Swiper> = (props: Swiper) => {
+const BaseSwiper = (props: Swiper) => {
   const { modules = [], ...rest } = props;
 
   return <Swiper modules={[...modules, A11y, Lazy]} {...rest} />;

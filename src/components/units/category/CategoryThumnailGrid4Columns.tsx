@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { AspectRatio, Box, BoxProps, Grid, Text, useColorModeValue } from '@chakra-ui/react';
-import { CategoryBannerList } from '@ssg/types/mapi';
+import { CategoryBannerList } from '~/../@types/mapi';
 
 interface Props extends BoxProps {
   data: Array<CategoryBannerList>;

@@ -10,7 +10,7 @@ const svgStyles: React.CSSProperties = {
 
 interface SvgWrapperProps extends BoxProps {
   svg: FunctionComponent;
-  isFull: boolean;
+  isFull?: boolean;
 }
 
 const SvgWrapper = forwardRef(({ svg, isFull, ...rest }: SvgWrapperProps, ref) => {
