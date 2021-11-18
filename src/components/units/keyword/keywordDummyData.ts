@@ -1949,7 +1949,7 @@ export const keyWordDummyData = {
             accumDgr: '16',
             srchwdBestTypeCd: '30',
             siteNo: '6005',
-            srchwd: "스타벅스'",
+            srchwd: '스타벅스\'',
             dispCtgZoneId: '1000015889',
             bestRankg: '7',
             vrbRankg: '1',

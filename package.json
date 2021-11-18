@@ -34,8 +34,8 @@
     "prepare": "yarn build",
     "test": "jest --env=jsdom --passWithNoTests",
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
-    "lint": "concurrently yarn:lint:*",
-    "lint:src": "eslint src --ext .ts,.tsx",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "yarn lint --fix",
     "lint:types": "tsc --noEmit",
     "storybook": "start-storybook -p 6006",
     "build:storybook": "build-storybook"
@@ -88,6 +88,7 @@
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "concurrently": "^6.4.0",
+    "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.0",
