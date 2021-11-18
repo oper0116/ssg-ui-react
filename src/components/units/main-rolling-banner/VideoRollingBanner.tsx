@@ -17,7 +17,7 @@ import {
   ModalHeader,
   useDisclosure,
 } from '@chakra-ui/react';
-import { Swiper, SwiperSlide, SwiperAutoplay, SwiperClass } from '../../swiper';
+import { Swiper, SwiperSlide, SwiperAutoplay } from '../../swiper';
 import { SystemIcon } from '../../icons';
 
 interface Props {
@@ -31,21 +31,21 @@ interface Props {
 }
 
 const VideoRollingBanner = ({ data }: Props) => {
-  const swiperRef = useRef(null) as unknown as React.MutableRefObject<SwiperClass>;
+  const swiperRef = useRef(null) as unknown as React.MutableRefObject<typeof Swiper>;
   const [activeIndex, setActiveIndex] = useState(0);
   const [isAutoPlay, setIsAutoPlay] = useState(true);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const onSlideChange = () => {
-    swiperRef.current && setActiveIndex(swiperRef.current.realIndex);
+    // swiperRef.current && setActiveIndex(swiperRef.current.realIndex);
   };
 
   const onToggleAutoPlay = () => {
-    if (isAutoPlay) {
-      swiperRef.current.autoplay.stop();
-    } else {
-      swiperRef.current.autoplay.start();
-    }
+    // if (isAutoPlay) {
+    //   swiperRef.current.autoplay.stop();
+    // } else {
+    //   swiperRef.current.autoplay.start();
+    // }
     setIsAutoPlay((v) => !v);
   };
 
@@ -66,7 +66,7 @@ const VideoRollingBanner = ({ data }: Props) => {
         slidesPerView={1}
         loop
         onSwiper={(swiper) => {
-          swiperRef.current = swiper;
+          // swiperRef.current = swiper;
         }}
         onSlideChange={onSlideChange}
       >

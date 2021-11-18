@@ -65,26 +65,6 @@ watch mode로 테스트 러너를 실행합니다.<br /> 자세한 정보는
 
 `dist` 폴더에 패키지를 빌드합니다.
 
-### `yarn bundlesize`
-
-패키지의 번들사이즈를 체크합니다. <br /> bundlesize.config.json에서
-허용 사이즈를 설정할 수 있습니다.
-
 ### `yarn clean`
 
 빌드 파일을 제거합니다.
-
-## Release
-
-### `yarn changeset`
-
-패키지 변경사항을 기록합니다. 버전을 올릴 패키지를 선택한 후,
-major, minor, patch 중 하나를 선택합니다. 그리고 변경사항 summary를 작성합니다.
-
-### `yarn version:pkgs`
-
-패키지 변경사항을 package.json과 CHANGELOG.md에 반영합니다.
-
-### `yarn release`
-
-패키지를 배포합니다.

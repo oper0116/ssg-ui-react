@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Box, ListItem, OrderedList, Flex, Button } from '@chakra-ui/react';
 import Link from 'next/link';
-import { Swiper, SwiperSlide, SwiperClass } from '../../swiper';
+import { Swiper, SwiperSlide } from '../../swiper';
 import { SystemIcon } from '../../icons/SystemIcon';
 
 interface Props {
@@ -38,7 +38,7 @@ interface IrltimeSrchwdBestList {
 
 const Keyword = ({ data }: Props) => {
   const keywordData = data.cateList[0].rltimeSrchwdBestList;
-  const swiperRef = useRef(null) as unknown as React.MutableRefObject<SwiperClass>;
+  const swiperRef = useRef(null) as unknown as React.MutableRefObject<typeof Swiper>;
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const Keyword = ({ data }: Props) => {
 
   const onSlideChange = () => {
     const swiperRefCurrent = swiperRef.current;
-    setActiveIndex(swiperRefCurrent?.realIndex);
+    // setActiveIndex(swiperRefCurrent?.realIndex);
   };
 
   const sortKeyword = keywordData
@@ -85,7 +85,7 @@ const Keyword = ({ data }: Props) => {
           <Swiper
             loop={true}
             onSwiper={(swiper) => {
-              swiperRef.current = swiper;
+              // swiperRef.current = swiper;
             }}
             onSlideChange={onSlideChange}
           >
@@ -187,7 +187,7 @@ const Keyword = ({ data }: Props) => {
             alignItems="center"
             p="0 15px"
             fontWeight="normal"
-            onClick={() => swiperRef.current.slideNext()}
+            // onClick={() => swiperRef.current.slideNext()}
           >
             <SystemIcon icon="arrow_clockwise" width={4} mr={1} />
             새로보기
