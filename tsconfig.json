@@ -28,5 +28,12 @@
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "@types", "index.ts"],
-  "exclude": ["node_modules", "build", "dist", "rollup.config.js", "**/*.stories.tsx"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "storybook-static",
+    "rollup.config.js",
+    "**/*.stories.tsx"
+  ]
 }

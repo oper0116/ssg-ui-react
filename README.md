@@ -44,6 +44,14 @@ yarn dlx @yarnpkg/sdks vscode
 
 프로젝트 디렉토리에서 아래 명령어를 사용할 수 있습니다.
 
+### `yarn build`
+
+`dist` 폴더에 패키지를 빌드합니다.
+
+### `yarn build:watch`
+
+watch 모드로 패키지를 빌드합니다.
+
 ### `yarn storybook`
 
 스토리북을 실행합니다.<br /> 브라우저에서
@@ -60,10 +68,6 @@ yarn dlx @yarnpkg/sdks vscode
 watch mode로 테스트 러너를 실행합니다.<br /> 자세한 정보는
 [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
 를 확인해보세요.
-
-### `yarn build`
-
-`dist` 폴더에 패키지를 빌드합니다.
 
 ### `yarn clean`
 
