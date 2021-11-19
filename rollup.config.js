@@ -1,3 +1,4 @@
+import * as path from 'path';
 import pkg from './package.json';
 import typescript from 'rollup-plugin-typescript2';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
@@ -10,6 +11,26 @@ import svgr from '@svgr/rollup';
 const extensions = ['.js', '.jsx', '.ts', '.tsx', '.scss'];
 
 process.env.BABEL_ENV = 'production';
+
+const onwarn = (warning, rollupWarn) => {
+  const ignoredWarnings = [
+    {
+      ignoredCode: 'CIRCULAR_DEPENDENCY',
+      ignoredPath: 'node_modules/next/dist',
+    },
+  ];
+
+  // only show warning when code and path don't match
+  // anything in above list of ignored warnings
+  if (
+    !ignoredWarnings.some(
+      ({ ignoredCode, ignoredPath }) =>
+        warning.code === ignoredCode && warning.importer.includes(path.normalize(ignoredPath)),
+    )
+  ) {
+    rollupWarn(warning);
+  }
+};
 
 function setUpRollup({ input, output }) {
   return {
@@ -43,7 +64,8 @@ function setUpRollup({ input, output }) {
       //   },
       // }),
     ],
-    external: ['react', 'react-dom'],
+    external: ['react', 'react-dom', 'next'],
+    onwarn,
   };
 }
 
