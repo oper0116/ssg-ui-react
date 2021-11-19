@@ -121,6 +121,7 @@
   },
   "packageManager": "yarn@3.1.0",
   "peerDependencies": {
+    "@emotion/is-prop-valid": "*",
     "next": "*"
   }
 }

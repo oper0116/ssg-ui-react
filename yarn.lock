@@ -17513,6 +17513,7 @@ __metadata:
     typescript: ^4.1.2
     webpack: ^5.64.1
   peerDependencies:
+    "@emotion/is-prop-valid": "*"
     next: "*"
   languageName: unknown
   linkType: soft

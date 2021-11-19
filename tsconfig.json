@@ -23,8 +23,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "~ui/*": ["./src/*"],
-      "@config/*": ["./config/*"]
+      "~ui/*": ["./src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "@types", "index.ts"],
