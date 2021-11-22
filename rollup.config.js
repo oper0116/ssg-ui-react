@@ -54,16 +54,16 @@ function setUpRollup({ input, output }) {
         sourceMap: true,
         use: ['sass'],
       }),
-      svgr(),
-      // svgr({
-      //   ref: true,
-      //   dimensions: false,
-      //   replaceAttrValues: { '#000': 'currentColor' },
-      //   svgoConfig: {
-      //     plugins: [{ removeXMLNS: true }],
-      //   },
-      // }),
+      svgr({
+        ref: true,
+        dimensions: false,
+        replaceAttrValues: { '#000': 'currentColor' },
+        svgoConfig: {
+          plugins: [{ removeXMLNS: true }],
+        },
+      }),
     ],
+    external: ['react', 'react-dom', 'next'],
     onwarn,
   };
 }
