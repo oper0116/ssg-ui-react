@@ -1,6 +1,6 @@
 import { Flex, Text } from '@chakra-ui/react';
 import React from 'react';
-import { SiteName } from '~ui/utils';
+import { SiteName } from '~/utils';
 import { LogoIcon, SystemIcon } from '../../../icons/';
 
 interface Props {

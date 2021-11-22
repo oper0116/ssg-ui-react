@@ -23,10 +23,10 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "~ui/*": ["./src/*"]
+      "~/*": ["./src/*"]
     }
   },
-  "include": ["src", "@types", "index.ts"],
+  "include": ["**/*.tsx", "**/*.ts", "@types", "index.ts"],
   "exclude": [
     "node_modules",
     "build",

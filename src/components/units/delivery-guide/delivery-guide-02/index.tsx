@@ -3,7 +3,7 @@ import { Box, Flex, Text, VStack, useDisclosure, Fade } from '@chakra-ui/react';
 import { IconType, LogoIcon, SystemIcon, SystemIconProps } from '../../../icons';
 import DeliveryGuideItem from './DeliveryGuideItem';
 import { motion } from 'framer-motion';
-import { SiteName } from '~ui/utils';
+import { SiteName } from '~/utils';
 
 interface IShippingTimeItem {
   siteNo: string;

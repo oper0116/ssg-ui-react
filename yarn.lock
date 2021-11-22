@@ -2118,7 +2118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/react@npm:^1.7.1":
+"@chakra-ui/react@npm:^1.7.2":
   version: 1.7.2
   resolution: "@chakra-ui/react@npm:1.7.2"
   dependencies:
@@ -2754,7 +2754,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:*, @emotion/react@npm:^11.6.0":
+"@emotion/react@npm:^11":
   version: 11.6.0
   resolution: "@emotion/react@npm:11.6.0"
   dependencies:
@@ -2832,7 +2832,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:*, @emotion/styled@npm:^11.6.0":
+"@emotion/styled@npm:^10.0.27":
+  version: 10.0.27
+  resolution: "@emotion/styled@npm:10.0.27"
+  dependencies:
+    "@emotion/styled-base": ^10.0.27
+    babel-plugin-emotion: ^10.0.27
+  peerDependencies:
+    "@emotion/core": ^10.0.27
+    react: ">=16.3.0"
+  checksum: 09e86fe47adbca1eabb34f36cee17289fbe1f2332c40051d4d5a6077eed1682612685663efb7fd68a8f290d20f9f5cb6ad1c9ca18dcdfc05ee51784d707d279c
+  languageName: node
+  linkType: hard
+
+"@emotion/styled@npm:^11":
   version: 11.6.0
   resolution: "@emotion/styled@npm:11.6.0"
   dependencies:
@@ -2851,19 +2864,6 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 612bbf114a4ca49e5b3ec4554bea1cd5aad9eeb2371babc3e6b79eab5020bd0300b9904108b621837fe715e221ba09dd131dc29918c1fd966e082d8e74fca833
-  languageName: node
-  linkType: hard
-
-"@emotion/styled@npm:^10.0.27":
-  version: 10.0.27
-  resolution: "@emotion/styled@npm:10.0.27"
-  dependencies:
-    "@emotion/styled-base": ^10.0.27
-    babel-plugin-emotion: ^10.0.27
-  peerDependencies:
-    "@emotion/core": ^10.0.27
-    react: ">=16.3.0"
-  checksum: 09e86fe47adbca1eabb34f36cee17289fbe1f2332c40051d4d5a6077eed1682612685663efb7fd68a8f290d20f9f5cb6ad1c9ca18dcdfc05ee51784d707d279c
   languageName: node
   linkType: hard
 
@@ -10524,15 +10524,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:*, framer-motion@npm:^5.3.0":
-  version: 5.3.1
-  resolution: "framer-motion@npm:5.3.1"
+"framer-motion@npm:^4":
+  version: 4.1.17
+  resolution: "framer-motion@npm:4.1.17"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
-    framesync: 6.0.1
+    framesync: 5.3.0
     hey-listen: ^1.0.8
-    popmotion: 11.0.0
-    style-value-types: 5.0.0
+    popmotion: 9.3.6
+    style-value-types: 4.1.4
     tslib: ^2.1.0
   peerDependencies:
     react: ">=16.8 || ^17.0.0"
@@ -10540,7 +10540,7 @@ __metadata:
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: 048d43a5f55e37621bfb2e6d3ff581005a29da1a1fafd77e3a8861f31e40700f27e7772c63b96064387132a2a94fcb71f41c8a97c76dd0bf14a87ca806b77c48
+  checksum: f6b5fc8f189e6760353aa5b67515b6576ebaa164d8df73118780a09d1d4a162e54dfeb126a05c6a28727af88f4a80f8b94900ff9510be44dada6496a99273fde
   languageName: node
   linkType: hard
 
@@ -10550,15 +10550,6 @@ __metadata:
   dependencies:
     tslib: ^2.1.0
   checksum: 9ebbb2863e6a1cfd2e9dd1b73af427d23caa03c92dd49ea767ebdd208c3a573bba4a1026f67068d856a21704f79adcdf2f750cc852ff73bc1f0e80edaaecded8
-  languageName: node
-  linkType: hard
-
-"framesync@npm:6.0.1, framesync@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "framesync@npm:6.0.1"
-  dependencies:
-    tslib: ^2.1.0
-  checksum: a23ebe8f7e20a32c0b99c2f8175b6f07af3ec6316aad52a2316316a6d011d717af8d2175dcc2827031c59fabb30232ed3e19a720a373caba7f070e1eae436325
   languageName: node
   linkType: hard
 
@@ -13444,8 +13435,8 @@ __metadata:
   linkType: hard
 
 "lint-staged@npm:^12.0.2":
-  version: 12.1.1
-  resolution: "lint-staged@npm:12.1.1"
+  version: 12.1.2
+  resolution: "lint-staged@npm:12.1.2"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
@@ -13463,7 +13454,7 @@ __metadata:
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 1c4ec4cbccac7040b7d676f0e4f99d9e8d69360ec99d69cbfb12b6c27708ba8a076741712f1b45e67099fc640b1049a27cba8866a85a299a6048ab39d8e4faa7
+  checksum: ec84ce4f74d0d8fe314bd0b62fb5e0be64af692d1876f68c457116faef61b4b3b79d72df7819c248bfbb20c46e88fbe994128e7351e84bec7048263e00199925
   languageName: node
   linkType: hard
 
@@ -15465,15 +15456,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"popmotion@npm:11.0.0":
-  version: 11.0.0
-  resolution: "popmotion@npm:11.0.0"
+"popmotion@npm:9.3.6":
+  version: 9.3.6
+  resolution: "popmotion@npm:9.3.6"
   dependencies:
-    framesync: ^6.0.1
+    framesync: 5.3.0
     hey-listen: ^1.0.8
-    style-value-types: 5.0.0
+    style-value-types: 4.1.4
     tslib: ^2.1.0
-  checksum: 0e214895269bb3c9d2c5cbed2229d399cdea118f40cfd95f96b176439edf09d16becdef3dc3b820a6f53ab02a14e6047f04c89ee6991ddbd8b8194d7cfa59f0b
+  checksum: 551446ec3763790efde7a3bb8c43189122f9b559985be2efa79842138257c4e331efcff606732a4bd5ac82d9bde1b236258d69a435f4bb5e9fc5908241b5ba3f
   languageName: node
   linkType: hard
 
@@ -18049,12 +18040,12 @@ __metadata:
     "@babel/preset-react": ^7.16.0
     "@babel/preset-typescript": ^7.16.0
     "@chakra-ui/babel-plugin": ^1.0.0
-    "@chakra-ui/react": ^1.7.1
+    "@chakra-ui/react": ^1.7.2
     "@chakra-ui/theme-tools": ^1.3.1
     "@commitlint/cli": ^14.1.0
     "@commitlint/config-conventional": ^14.1.0
-    "@emotion/react": ^11.6.0
-    "@emotion/styled": ^11.6.0
+    "@emotion/react": ^11
+    "@emotion/styled": ^11
     "@rollup/plugin-commonjs": ^21.0.1
     "@rollup/plugin-json": ^4.1.0
     "@rollup/plugin-node-resolve": ^13.0.6
@@ -18087,13 +18078,14 @@ __metadata:
     eslint-config-prettier: ^8.3.0
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.27.0
-    framer-motion: ^5.3.0
+    framer-motion: ^4
     husky: ^7.0.4
     jest: ^27.3.1
     lint-staged: ^12.0.2
     next: ^12.0.4
     postcss: ^8.3.11
     prettier: ^2.4.1
+    process: ^0.11.10
     react: ^17.0.2
     react-dom: ^17.0.2
     rimraf: ^3.0.2
@@ -18104,7 +18096,7 @@ __metadata:
     swiper: ^7.2.0
     ts-jest: ^27.0.7
     tsconfig-paths-webpack-plugin: ^3.5.2
-    typescript: ^4.1.2
+    typescript: 4.4.4
     webpack: ^5.64.1
   peerDependencies:
     next: 12.x
@@ -18544,13 +18536,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-value-types@npm:5.0.0":
-  version: 5.0.0
-  resolution: "style-value-types@npm:5.0.0"
+"style-value-types@npm:4.1.4":
+  version: 4.1.4
+  resolution: "style-value-types@npm:4.1.4"
   dependencies:
     hey-listen: ^1.0.8
     tslib: ^2.1.0
-  checksum: 16d198302cd102edf9dba94e7752a2364c93b1eaa5cc7c32b42b28eef4af4ccb5149a3f16bc2a256adc02616a2404f4612bd15f3081c1e8ca06132cae78be6c0
+  checksum: 96189770076a2717bf579f7d73a49953f0c3d633b90fed9b44b8285cbbe7facd19d6d7a0d2802fb493b45995791f62b87983c3d3c24128818a69e593b6d77aed
   languageName: node
   linkType: hard
 
@@ -19384,7 +19376,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.1.2, typescript@npm:^4.4.3":
+"typescript@npm:4.4.4":
+  version: 4.4.4
+  resolution: "typescript@npm:4.4.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 89ecb8436bb48ef5594d49289f5f89103071716b6e4844278f4fb3362856e31203e187a9c76d205c3f0b674d221a058fd28310dbcbcf5d95e9a57229bb5203f1
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^4.4.3":
   version: 4.5.2
   resolution: "typescript@npm:4.5.2"
   bin:
@@ -19394,7 +19396,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.1.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.4.4#~builtin<compat/typescript>":
+  version: 4.4.4
+  resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: bd629ad0da4a15d79aaad56baf3ee7d96f6a181760d430ae77f8c5325df7bffd9edee57544a3970e3651e8b796fe03a5838a7eb39c6d46cc3866c0b23d36a0dd
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
   version: 4.5.2
   resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=ddd1e8"
   bin:

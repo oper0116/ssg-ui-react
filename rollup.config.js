@@ -2,11 +2,16 @@ import * as path from 'path';
 import pkg from './package.json';
 import typescript from 'rollup-plugin-typescript2';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import { nodeResolve } from '@rollup/plugin-node-resolve';
+import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 import postcss from 'rollup-plugin-postcss';
 import svgr from '@svgr/rollup';
+
+const extensions = ['.js', '.jsx', '.ts', '.tsx', '.scss'];
+
+// babel-preset-react-app를 사용한다면 BABEL_ENV를 필수로 설정해야함.
+process.env.BABEL_ENV = 'production';
 
 const onwarn = (warning, rollupWarn) => {
   const ignoredWarnings = [
@@ -34,12 +39,12 @@ function setUpRollup({ input, output }) {
     output,
     watch: {
       include: '*',
-      exclude: 'node_modules/**',
+      exclude: '.yarn/**',
     },
     plugins: [
-      peerDepsExternal(),
+      peerDepsExternal(), // peerDependency를 번들링 결과물에서 제외
       json(),
-      nodeResolve(),
+      resolve({ extensions }), // node_modules에서 모듈 불러올 수 있게 해줌, ts/tsx 불러올 수  있게 해줌.
       commonjs({
         include: /node_modules/,
       }),
