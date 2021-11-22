@@ -43,7 +43,11 @@ function setUpRollup({ input, output }) {
       commonjs({
         include: /node_modules/,
       }),
-      typescript({ useTsconfigDeclarationDir: true }),
+      typescript({
+        rollupCommonJSResolveHack: false,
+        clean: true,
+        useTsconfigDeclarationDir: true,
+      }),
       postcss({
         extract: true,
         modules: true,
@@ -60,7 +64,6 @@ function setUpRollup({ input, output }) {
       //   },
       // }),
     ],
-    external: ['react', 'react-dom'],
     onwarn,
   };
 }
