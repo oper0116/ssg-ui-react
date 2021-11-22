@@ -8,8 +8,6 @@ import json from '@rollup/plugin-json';
 import postcss from 'rollup-plugin-postcss';
 import svgr from '@svgr/rollup';
 
-process.env.BABEL_ENV = 'production';
-
 const onwarn = (warning, rollupWarn) => {
   const ignoredWarnings = [
     {
