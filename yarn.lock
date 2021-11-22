@@ -1790,6 +1790,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chakra-ui/color-mode@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@chakra-ui/color-mode@npm:1.3.2"
+  dependencies:
+    "@chakra-ui/hooks": 1.7.1
+    "@chakra-ui/react-env": 1.1.1
+    "@chakra-ui/utils": 1.9.1
+  peerDependencies:
+    react: ">=16.8.6"
+  checksum: 4ae17330a026106c17cb8e37d38013cf0916216011ed626391fb84d248de745379a24f4a5c8ffe8d1ae07d27c2dc9684f301c502669b187c28dd17672c35e047
+  languageName: node
+  linkType: hard
+
 "@chakra-ui/control-box@npm:1.1.1":
   version: 1.1.1
   resolution: "@chakra-ui/control-box@npm:1.1.1"
@@ -2320,6 +2333,23 @@ __metadata:
     "@emotion/styled": ^11.0.0
     react: ">=16.8.6"
   checksum: 5cd5d54f55f3c4e3f4fb49f4a49968070258edf232e25d0b2a5f05636639e63852746081cb7a3c85b36d677b45f1adeb8575b19c5f2f912ae3194944a14b69b1
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/system@npm:^1.8.2":
+  version: 1.8.2
+  resolution: "@chakra-ui/system@npm:1.8.2"
+  dependencies:
+    "@chakra-ui/color-mode": 1.3.2
+    "@chakra-ui/react-utils": 1.2.1
+    "@chakra-ui/styled-system": 1.14.1
+    "@chakra-ui/utils": 1.9.1
+    react-fast-compare: 3.2.0
+  peerDependencies:
+    "@emotion/react": ^11.0.0
+    "@emotion/styled": ^11.0.0
+    react: ">=16.8.6"
+  checksum: b34ee50d12ab9683615369b78ba1e3fca65aae58a308fb937908b1d78532ff191af1f4cb200886c9870d548aef6aa7c7670f3d2f9f80c9e3b8d3929302b2769e
   languageName: node
   linkType: hard
 
@@ -18131,6 +18161,7 @@ __metadata:
     "@babel/preset-typescript": ^7.16.0
     "@chakra-ui/babel-plugin": ^1.0.0
     "@chakra-ui/react": ^1.7.1
+    "@chakra-ui/system": ^1.8.2
     "@chakra-ui/theme-tools": ^1.3.1
     "@commitlint/cli": ^14.1.0
     "@commitlint/config-conventional": ^14.1.0

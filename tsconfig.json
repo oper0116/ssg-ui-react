@@ -6,7 +6,7 @@
     "jsx": "react-jsx",
     "declaration": true,
     "declarationDir": "./dist",
-    "typeRoots": ["@types"],
+    "declarationMap": true,
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -31,6 +31,7 @@
     "node_modules",
     "build",
     "dist",
+    "__mocks__",
     "storybook-static",
     "rollup.config.js",
     "**/*.stories.tsx"

@@ -2,13 +2,11 @@ import * as path from 'path';
 import pkg from './package.json';
 import typescript from 'rollup-plugin-typescript2';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import resolve from '@rollup/plugin-node-resolve';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 import postcss from 'rollup-plugin-postcss';
 import svgr from '@svgr/rollup';
-
-const extensions = ['.js', '.jsx', '.ts', '.tsx', '.scss'];
 
 process.env.BABEL_ENV = 'production';
 
@@ -43,7 +41,7 @@ function setUpRollup({ input, output }) {
     plugins: [
       peerDepsExternal(),
       json(),
-      resolve({ extensions }),
+      nodeResolve(),
       commonjs({
         include: /node_modules/,
       }),
@@ -64,7 +62,7 @@ function setUpRollup({ input, output }) {
       //   },
       // }),
     ],
-    external: ['react', 'react-dom', 'next'],
+    external: ['react', 'react-dom'],
     onwarn,
   };
 }
