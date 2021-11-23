@@ -38,7 +38,7 @@ function setUpRollup({ input, output }) {
     input,
     output,
     watch: {
-      include: '*',
+      include: 'src/**',
       exclude: '.yarn/**',
     },
     plugins: [
